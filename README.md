@@ -1,148 +1,84 @@
-<p align="center"><img width="100%" src="ML/others/logo/torch_and_tf.svg" /></p>
+# AI Resources
 
---------------------------------------------------------------------------------
-
-
-[![Build Status](https://travis-ci.com/aladdinpersson/Machine-Learning-Collection.svg?branch=master)](https://travis-ci.com/aladdinpersson/Machine-Learning-Collection) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-[logo]: https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/others/logo/youtube_logo.png
-
-# Machine Learning Collection
-In this repository you will find tutorials and projects related to Machine Learning. I try to make the code as clear as possible, and the goal is be to used as a learning resource and a way to lookup problems to solve specific problems. For most I have also done video explanations on YouTube if you want a walkthrough for the code. If you got any questions or suggestions for future videos I prefer if you ask it on [YouTube](https://www.youtube.com/c/AladdinPersson). This repository is contribution friendly, so if you feel you want to add something then I'd happily merge a PR :smiley:
+In this repository you will find books and documents related to Machine Learning and Deep Learning. 
+I try to make the documents as clear as possible, and the goal is being to used as a learning resource or study and a way to lookup problems to solve specific problems. 
+Books and documents I have collected throughout my studies. I hope everyone will like it
+If you find it useful, please give me a star. It will be the motivation for me to continue developing this repo.
 
 ## Table Of Contents
-- [Machine Learning Algorithms](#machine-learning)
-- [PyTorch Tutorials](#pytorch-tutorials)
-	- [Basics](#basics)
-	- [More Advanced](#more-advanced)
-    - [Object Detection](#Object-Detection)
-	- [Generative Adversarial Networks](#Generative-Adversarial-Networks)
-	- [Architectures](#architectures)
-	- [Lightning](#PyTorch-Lightning)
-- [TensorFlow Tutorials](#tensorflow-tutorials)
-	- [Beginner Tutorials](#beginner-tutorials)
-	- [Architectures](#CNN-Architectures)
 
-## Machine Learning
-* [![Youtube Link][logo]](https://youtu.be/pCCUnoes1Po) &nbsp; [Linear Regression](https://github.com/AladdinPersson/Machine-Learning-Collection/blob/master/ML/algorithms/linearregression/linear_regression_gradient_descent.py) **- With Gradient Descent** :white_check_mark: 
-* [![Youtube Link][logo]](https://youtu.be/DQ6xfe75CDk) &nbsp; [Linear Regression](https://github.com/AladdinPersson/Machine-Learning-Collection/blob/master/ML/algorithms/linearregression/linear_regression_normal_equation.py) **- With Normal Equation** :white_check_mark:
-* [![Youtube Link][logo]](https://youtu.be/x1ez9vi611I) &nbsp; [Logistic Regression](https://github.com/AladdinPersson/Machine-Learning-Collection/blob/master/ML/algorithms/logisticregression/logistic_regression.py)
-* [![Youtube Link][logo]](https://youtu.be/3trW5Lig7BU) &nbsp; [Naive Bayes](https://github.com/AladdinPersson/Machine-Learning-Collection/blob/master/ML/algorithms/naivebayes/naivebayes.py) **- Gaussian Naive Bayes**
-* [![Youtube Link][logo]](https://youtu.be/QzAaRuDskyc) &nbsp; [K-nearest neighbors](https://github.com/AladdinPersson/Machine-Learning-Collection/blob/master/ML/algorithms/knn/knn.py)
-* [![Youtube Link][logo]](https://youtu.be/W4fSRHeafMo) &nbsp; [K-means clustering](https://github.com/AladdinPersson/Machine-Learning-Collection/blob/master/ML/algorithms/kmeans/kmeansclustering.py) 
-* [![Youtube Link][logo]](https://youtu.be/gBTtR0bs-1k) &nbsp; [Support Vector Machine](https://github.com/AladdinPersson/Machine-Learning-Collection/blob/master/ML/algorithms/svm/svm.py) **- Using CVXOPT**
-* [![Youtube Link][logo]](https://youtu.be/NJvojeoTnNM) &nbsp; [Neural Network](https://github.com/AladdinPersson/Machine-Learning-Collection/blob/master/ML/algorithms/neuralnetwork/NN.py)
-* [Decision Tree](https://github.com/AladdinPersson/Machine-Learning-Collection/blob/master/ML/algorithms/decisiontree/decision_tree.py)
+- [Books](#Books) 
+  - [Database](#Database)
+  - [Deep Learning](#deep-learning) 
+  - [Machine Learning](#machine-learning) 
+  - [Linear Algebra](#linear-algebra)
+- [Documents](#documents)
+  - [Computer Vision](#computers-vision)
+  - [GAN Models](#GAN model)
+  - [Sequence Models](#sequence-models)
+  - [Metrics](#Metrics)
+  - [Optimizer](#Optimizer)
+  - [Statistical](#Statistical)
+  - [Technical](#Technical)
+  - [Transformer](#Transformer)
+  - [Word Embedding](#word-embedding)
 
-## PyTorch Tutorials
-If you have any specific video suggestion please make a comment on YouTube :)
-
-### Basics
-* [![Youtube Link][logo]](https://youtu.be/x9JiIFvlUwk) &nbsp; [Tensor Basics](https://github.com/AladdinPersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_tensorbasics.py)
-* [![Youtube Link][logo]](https://youtu.be/Jy4wM2X21u0) &nbsp; [Feedforward Neural Network](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_simple_fullynet.py)
-* [![Youtube Link][logo]](https://youtu.be/wnK3uWv_WkU) &nbsp; [Convolutional Neural Network](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_simple_CNN.py)
-* [![Youtube Link][logo]](https://youtu.be/Gl2WXLIMvKA) &nbsp; [Recurrent Neural Network](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_rnn_gru_lstm.py)
-* [![Youtube Link][logo]](https://youtu.be/jGst43P-TJA) &nbsp; [Bidirectional Recurrent Neural Network](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_bidirectional_lstm.py)
-* [![Youtube Link][logo]](https://youtu.be/g6kQl_EFn84) &nbsp; [Loading and saving model](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_loadsave.py)
-* [![Youtube Link][logo]](https://youtu.be/ZoZHd0Zm3RY) &nbsp; [Custom Dataset (Images)](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/Basics/custom_dataset)
-* [![Youtube Link][logo]](https://youtu.be/9sHcLvVXsns) &nbsp; [Custom Dataset (Text)](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/Basics/custom_dataset_txt)
-* [![Youtube Link][logo]](https://youtu.be/ks3oZ7Va8HU) &nbsp; [Mixed Precision Training](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_mixed_precision_example.py)
-* [![Youtube Link][logo]](https://youtu.be/4JFVhJyTZ44) &nbsp; [Imbalanced dataset](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/Basics/Imbalanced_classes)
-* [![Youtube Link][logo]](https://youtu.be/qaDe0qQZ5AQ) &nbsp; [Transfer Learning and finetuning](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_pretrain_finetune.py)
-* [![Youtube Link][logo]](https://youtu.be/Zvd276j9sZ8) &nbsp; [Data augmentation using Torchvision](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_transforms.py)
-* [![Youtube Link][logo]](https://youtu.be/rAdLwKJBvPM) &nbsp; [Data augmentation using Albumentations](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/Basics/albumentations_tutorial)
-* [![Youtube Link][logo]](https://youtu.be/RLqsxWaQdHE) &nbsp; [TensorBoard Example](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_tensorboard_.py)
-* [![Youtube Link][logo]](https://youtu.be/y6IEcEBRZks) &nbsp; [Calculate Mean and STD of Images](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_std_mean.py)
-* [![Youtube Link][logo]](https://youtu.be/RKHopFfbPao) &nbsp; [Simple Progress bar](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_progress_bar.py)
-* [![Youtube Link][logo]](https://youtu.be/1SZocGaCAr8) &nbsp; [Deterministic Behavior](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/set_deterministic_behavior/pytorch_set_seeds.py)
-* [![Youtube Link][logo]](https://youtu.be/P31hB37g4Ak) &nbsp; [Learning Rate Scheduler](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_lr_ratescheduler.py) 
-* [![Youtube Link][logo]](https://youtu.be/xWQ-p_o0Uik) &nbsp; [Initialization of weights](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_init_weights.py)
+# [Books](https://github.com/tinh2044/AI-Resource/tree/main/Book)
+## [Database](https://github.com/tinh2044/AI-Resource/tree/main/Book/Database)
+- [Database Concept](https://github.com/tinh2044/AI-Resource/blob/main/Book/Database/Database%20Concepts.pdf)
+- [Database for Beginners Guide](https://github.com/tinh2044/AI-Resource/blob/main/Book/Database/Databases%20A%20Beginners%20Guide.pdf)
+- [Introduction Database](https://github.com/tinh2044/AI-Resource/blob/main/Book/Database/introduction%20database.pdf)
+## [Deep Learning](https://github.com/tinh2044/AI-Resource/tree/main/Book/DeepLearning)
+  - [DL with pytorch](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/Deep-Learning-with-PyTorch.pdf)
+  - [DL basic (VN language)](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/Deep%20Learning%20Basic%20(VN%20language).pdf)
+  - [Neural Network](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/Neural%20Networks%20from%20Scratch%20in%20Python.pdf)
+  - [DL Basic (EN language)](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/Understanding%20Deep%20Learning.pdf)
+  - [NLP with Python](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/natural%20language%20processing%20with%20python.pdf)
+  - [Computer Vision Basic](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/practical%20computer%20vision.pdf)
+## [Linear Algebra](https://github.com/tinh2044/AI-Resource/tree/main/Book/Linear%20Algebra)
+  - [From University of Vermont](https://github.com/tinh2044/AI-Resource/blob/main/Book/Linear%20Algebra/Linear%20Algebra.pdf)
+  - [From UCDAVIS](https://github.com/tinh2044/AI-Resource/blob/main/Book/Linear%20Algebra/Linear%20Algebra%20from%20UCDAVIS%20.pdf)
+  - [From University of Puget Sound](https://github.com/tinh2044/AI-Resource/blob/main/Book/Linear%20Algebra/A%20First%20Course%20in%20Linear%20Algebra.pdf)
+## [Machine Learning](https://github.com/tinh2044/AI-Resource/tree/main/Book/Machine%20Learning)
+  - [Ml Concept](https://github.com/tinh2044/AI-Resource/blob/main/Book/Machine%20Learning/Machine%20Learning%20Concept.pdf)
+  - [ML with Python](https://github.com/tinh2044/AI-Resource/blob/main/Book/Machine%20Learning/AI%20and%20machine%20learning%20for%20coders%20a%20programmers%20guide%20to%20artificial%20intelligence%20.pdf)
+  - [ML with C++](https://github.com/tinh2044/AI-Resource/blob/main/Book/Machine%20Learning/Hands%20On%20Machine%20Learning%20with%20C%2B%2B%20Build.pdf)
 
 
-### More Advanced
-* [![Youtube Link][logo]](https://youtu.be/WujVlF_6h5A) &nbsp; [Text Generating LSTM](https://github.com/AladdinPersson/Machine-Learning-Collection/blob/master/ML/Projects/text_generation_babynames/generating_names.py)
-* [![Youtube Link][logo]](https://youtu.be/IHq1t7NxS8k) &nbsp; [Semantic Segmentation w. U-NET](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/image_segmentation/semantic_segmentation_unet)
-* [![Youtube Link][logo]](https://youtu.be/y2BaTt1fxJU) &nbsp; [Image Captioning](https://github.com/AladdinPerzon/Machine-Learning-Collection/tree/master/ML/Pytorch/more_advanced/image_captioning)
-* [![Youtube Link][logo]](https://youtu.be/imX4kSKDY7s) &nbsp; [Neural Style Transfer](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/neuralstyle/nst.py)
-* [![Youtube Link][logo]](https://www.youtube.com/playlist?list=PLhhyoLH6IjfzxdlsLrclcCTsS8kIcfWJb) &nbsp; [Torchtext [1]](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/torchtext/torchtext_tutorial1.py) [Torchtext [2]](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/torchtext/torchtext_tutorial2.py) [Torchtext [3]](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/torchtext/torchtext_tutorial3.py)
-* [![Youtube Link][logo]](https://youtu.be/EoGUlvhRYpk) &nbsp; [Seq2Seq](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/Seq2Seq/seq2seq.py) **- Sequence to Sequence (LSTM)**
-* [![Youtube Link][logo]](https://youtu.be/sQUqQddQtB4) &nbsp; [Seq2Seq + Attention](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/Seq2Seq_attention/seq2seq_attention.py) **- Sequence to Sequence with Attention (LSTM)**
-* [![Youtube Link][logo]](https://youtu.be/M6adRGJe5cQ) &nbsp; [Seq2Seq Transformers](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/seq2seq_transformer/seq2seq_transformer.py) **- Sequence to Sequence with Transformers**
-* [![Youtube Link][logo]](https://youtu.be/U0s0f995w14) &nbsp; [Transformers from scratch](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/transformer_from_scratch/transformer_from_scratch.py) **- Attention Is All You Need**
+##
 
-### Object Detection
-[Object Detection Playlist](https://youtube.com/playlist?list=PLhhyoLH6Ijfw0TpCTVTNk42NN08H6UvNq)
-* [![Youtube Link][logo]](https://youtu.be/XXYG5ZWtjj0) &nbsp; [Intersection over Union](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/object_detection/metrics/iou.py) 
-* [![Youtube Link][logo]](https://youtu.be/YDkjWEN8jNA) &nbsp; [Non-Max Suppression](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/object_detection/metrics/nms.py)
-* [![Youtube Link][logo]](https://youtu.be/FppOzcDvaDI) &nbsp; [Mean Average Precision](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/object_detection/metrics/mean_avg_precision.py)
-* [![Youtube Link][logo]](https://youtu.be/n9_XyCGr-MI) &nbsp; [YOLOv1 from scratch](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/object_detection/YOLO)
-* [![Youtube Link][logo]](https://youtu.be/Grir6TZbc1M) &nbsp; [YOLOv3 from scratch](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/object_detection/YOLOv3)
-
-### Generative Adversarial Networks
-[GAN Playlist](https://youtube.com/playlist?list=PLhhyoLH6IjfwIp8bZnzX8QR30TRcHO8Va)
-
-* [![Youtube Link][logo]](https://youtu.be/OljTVUVzPpM) &nbsp; [Simple FC GAN](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/GANs/1.%20SimpleGAN/fc_gan.py)
-* [![Youtube Link][logo]](https://youtu.be/IZtv9s_Wx9I) &nbsp; [DCGAN](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/2.%20DCGAN)
-* [![Youtube Link][logo]](https://youtu.be/pG0QZ7OddX4) &nbsp; [WGAN](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/3.%20WGAN)
-* [![Youtube Link][logo]](https://youtu.be/pG0QZ7OddX4) &nbsp; [WGAN-GP](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/4.%20WGAN-GP)
-* [![Youtube Link][logo]](https://youtu.be/SuddDSqGRzg) &nbsp; [Pix2Pix](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/Pix2Pix)
-* [![Youtube Link][logo]](https://youtu.be/4LktBHGCNfw) &nbsp; [CycleGAN](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/CycleGAN)
-* [![Youtube Link][logo]](https://youtu.be/nkQHASviYac) &nbsp; [ProGAN](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/ProGAN)
-* [SRGAN](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/SRGAN)
-* [ESRGAN](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/ESRGAN)
-* [StyleGAN](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs/StyleGAN) - NOTE: NOT DONE
-
-
-
-### Architectures
-* [![Youtube Link][logo]](https://youtu.be/fcOW-Zyb5Bo) &nbsp; [LeNet5](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/79f2e1928906f3cccbae6c024f3f79fd05262cd1/ML/Pytorch/CNN_architectures/lenet5_pytorch.py#L15-L35) **- CNN architecture**
-* [![Youtube Link][logo]](https://youtu.be/ACmuBbuXn20) &nbsp; [VGG](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/79f2e1928906f3cccbae6c024f3f79fd05262cd1/ML/Pytorch/CNN_architectures/pytorch_vgg_implementation.py#L16-L62) **- CNN architecture**
-* [![Youtube Link][logo]](https://youtu.be/uQc4Fs7yx5I) &nbsp; [Inception v1](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/Pytorch/CNN_architectures/pytorch_inceptionet.py) **- CNN architecture**
-* [![Youtube Link][logo]](https://youtu.be/DkNIBBBvcPs) &nbsp; [ResNet](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/Pytorch/CNN_architectures/pytorch_resnet.py) **- CNN architecture**
-* [![Youtube Link][logo]](https://youtu.be/fR_0o25kigM) &nbsp; [EfficientNet](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/CNN_architectures/pytorch_efficientnet.py) **- CNN architecture**
-
-### PyTorch Lightning
-* [![Youtube Link][logo]](https://www.youtube.com/playlist?list=PLhhyoLH6IjfyL740PTuXef4TstxAK6nGP) &nbsp; [Tutorial 1 - Introduction and starter code](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/pytorch_lightning/1.%20start%20code)
-* [![Youtube Link][logo]](https://www.youtube.com/playlist?list=PLhhyoLH6IjfyL740PTuXef4TstxAK6nGP) &nbsp; [Tutorial 2 - LightningModule](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/pytorch_lightning/2.%20LightningModule)
-* [![Youtube Link][logo]](https://www.youtube.com/playlist?list=PLhhyoLH6IjfyL740PTuXef4TstxAK6nGP) &nbsp; [Tutorial 3 - Trainer](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/pytorch_lightning/3.%20Lightning%20Trainer)
-* [![Youtube Link][logo]](https://www.youtube.com/playlist?list=PLhhyoLH6IjfyL740PTuXef4TstxAK6nGP) &nbsp; [Tutorial 4 - Metrics](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/pytorch_lightning/4.%20Metrics)
-* [![Youtube Link][logo]](https://www.youtube.com/playlist?list=PLhhyoLH6IjfyL740PTuXef4TstxAK6nGP) &nbsp; [Tutorial 5 - DataModule](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/pytorch_lightning/5.%20DataModule)
-* [![Youtube Link][logo]](https://www.youtube.com/playlist?list=PLhhyoLH6IjfyL740PTuXef4TstxAK6nGP) &nbsp; [Tutorial 6 - Code restructure](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/pytorch_lightning/6.%20Restructuring)
-* [![Youtube Link][logo]](https://www.youtube.com/playlist?list=PLhhyoLH6IjfyL740PTuXef4TstxAK6nGP) &nbsp; [Tutorial 7 - Callbacks](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/pytorch_lightning/7.%20Callbacks)
-* [![Youtube Link][logo]](https://www.youtube.com/playlist?list=PLhhyoLH6IjfyL740PTuXef4TstxAK6nGP) &nbsp; [Tutorial 8 - TensorBoard logging](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/pytorch_lightning/8.%20Logging%20Tensorboard)
-* [![Youtube Link][logo]](https://www.youtube.com/playlist?list=PLhhyoLH6IjfyL740PTuXef4TstxAK6nGP) &nbsp; [Tutorial 9 - Profiler](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/pytorch_lightning/9.%20Profiler)
-* [![Youtube Link][logo]](https://www.youtube.com/playlist?list=PLhhyoLH6IjfyL740PTuXef4TstxAK6nGP) &nbsp; [Tutorial 10 - Multi-GPU](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/pytorch_lightning/10.%20Multi-GPU)
- 
-
-## TensorFlow Tutorials
-If you have any specific video suggestion please make a comment on YouTube :)
-
-### Beginner Tutorials
-* [![Youtube Link][logo]](https://youtu.be/5Ym-dOS9ssA) &nbsp; Tutorial 1 - Installation, Video Only
-* [![Youtube Link][logo]](https://youtu.be/HPjBY1H-U4U) &nbsp; [Tutorial 2 - Tensor Basics](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial2-tensorbasics.py)
-* [![Youtube Link][logo]](https://youtu.be/pAhPiF3yiXI) &nbsp; [Tutorial 3 - Neural Network](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial3-neuralnetwork.py)
-* [![Youtube Link][logo]](https://youtu.be/WAciKiDP2bo) &nbsp; [Tutorial 4 - Convolutional Neural Network](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial4-convnet.py)
-* [![Youtube Link][logo]](https://youtu.be/kJSUq1PLmWg) &nbsp; [Tutorial 5 - Regularization](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial5-regularization.py)
-* [![Youtube Link][logo]](https://youtu.be/WAciKiDP2bo) &nbsp; [Tutorial 6 - RNN, GRU, LSTM](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial6-rnn-gru-lstm.py)
-* [![Youtube Link][logo]](https://youtu.be/kJSUq1PLmWg) &nbsp; [Tutorial 7 - Functional API](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial7-indepth-functional.py)
-* [![Youtube Link][logo]](https://youtu.be/WcZ_1IAH_nM) &nbsp; [Tutorial 8 - Keras Subclassing](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial8_keras_subclassing.py)
-* [![Youtube Link][logo]](https://youtu.be/cKMJDkWSDnY) &nbsp; [Tutorial 9 - Custom Layers](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial9-custom-layers.py)
-* [![Youtube Link][logo]](https://youtu.be/idus3KO6Wic) &nbsp; [Tutorial 10 - Saving and Loading Models](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial10-save-model.py)
-* [![Youtube Link][logo]](https://youtu.be/WJZoywOG1cs) &nbsp; [Tutorial 11 - Transfer Learning](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial11-transfer-learning.py)
-* [![Youtube Link][logo]](https://youtu.be/YrMy-BAqk8k) &nbsp; [Tutorial 12 - TensorFlow Datasets](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial12-tensorflowdatasets.py)
-* [![Youtube Link][logo]](https://youtu.be/8wwfVV7ixyY) &nbsp; [Tutorial 13 - Data Augmentation](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial13-data-augmentation.py)
-* [![Youtube Link][logo]](https://youtu.be/WUzLJZCKNu4) &nbsp; [Tutorial 14 - Callbacks](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial14-callbacks.py)
-* [![Youtube Link][logo]](https://youtu.be/S6tLSI8bjGs) &nbsp; [Tutorial 15 - Custom model.fit](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial15-customizing-modelfit.py)
-* [![Youtube Link][logo]](https://youtu.be/_u7AVsxANes) &nbsp; [Tutorial 16 - Custom Loops](https://github.com/AladdinPerzon/Machine-Learning-Collection/blob/master/ML/TensorFlow/Basics/tutorial16-customloops.py)
-* [![Youtube Link][logo]](https://youtu.be/k7KfYXXrOj0) &nbsp; [Tutorial 17 - TensorBoard](https://github.com/AladdinPerzon/Machine-Learning-Collection/tree/master/ML/TensorFlow/Basics/tutorial17-tensorboard)
-* [![Youtube Link][logo]](https://youtu.be/q7ZuZ8ZOErE) &nbsp; [Tutorial 18 - Custom Dataset Images](https://github.com/AladdinPerzon/Machine-Learning-Collection/tree/master/ML/TensorFlow/Basics/tutorial18-customdata-images)
-* [![Youtube Link][logo]](https://youtu.be/NoKvCREx36Q) &nbsp; [Tutorial 19 - Custom Dataset Text](https://github.com/AladdinPerzon/Machine-Learning-Collection/tree/master/ML/TensorFlow/Basics/tutorial19-customdata-text)
-* [![Youtube Link][logo]](https://youtu.be/ea5Z1smiR3U) &nbsp; [Tutorial 20 - Classifying Skin Cancer](https://github.com/AladdinPerzon/Machine-Learning-Collection/tree/master/ML/TensorFlow/Basics/tutorial20-classify-cancer-beginner-project-example) **- Beginner Project Example**
-
-### CNN Architectures
-* [LeNet](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/TensorFlow/CNN_architectures/LeNet5)
-* [AlexNet](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/TensorFlow/CNN_architectures/AlexNet)
-* [VGG](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/TensorFlow/CNN_architectures/VGGNet)
-* [GoogLeNet](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/TensorFlow/CNN_architectures/GoogLeNet)
-* [ResNet](https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/TensorFlow/CNN_architectures/ResNet)
- 
+# [Documents](https://github.com/tinh2044/AI-Resource/tree/main/Documents)
+## [Computers Vision](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision)
+  - [Classification models](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/Classification%20models)
+    - [Mobile Net](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/Classification%20models/Mobile%20Net)
+    - [SE Net](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/Classification%20models/SE%20Net)
+    - [Shuffle Net](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/Classification%20models/Shuffle%20Net)
+    - [Dense Net](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/Densely%20Connected%20Convolutional%20Networks.pdf)
+    - [Efficient Net](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/EfficentNet.pdf)
+    - [Inception Net](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/Going%20deeper%20with%20convolutions.pdf)
+    - [Overview some models](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/Over%20view%20some%20models%20.pdf)
+    - [Res Net](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/Resnet.pdf)
+    - [Squeeze Net](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/SuqeezeNet.pdf)
+  - [CNN](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/CNN)
+    - [Automatic Target Recognition](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/CNN/A%20Lightweight%20Fully%20Convolutional%20Neural%20Network.pdf)
+    - [CNN from AI VN](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/CNN/CNN.pdf)
+    - [CNN to ConvNext](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/CNN/CNN%20Module.pdf)
+    - [Condition CNN](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/CNN/Conditional%20Convolution.pdf)
+    - [Segment with Condition CNN](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/CNN/Conditional%20Convolution%20for%20Image%20Segmentaion.pdf)
+    - [Pretrained Models (VN language)](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/CNN/Exercise.pdf)
+  - [OCR](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/OCR)
+    - [Text Recognition](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/OCR/Text%20Recognition.pdf)
+    - [TrOCR model](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/OCR/TrOCR%20Transformer-based%20Optical%20Charater%20Recognition.pdf)
+  - [Vision Transformer](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/Vision%20Transformer)
+    - [ViT from PDX University](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Vision%20Transformer/Vision%20Transformer(PDX%20university).pdf)
+    - [ViT paper](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Vision%20Transformer/Vision%20Transformer.pdf)
+    - [ViT or CNN](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Vision%20Transformer/A%20survey%20of%20the%20Vision%20Transformers%20and%20its%20CNN-Transformer%20based%20.pdf)
+    - [Recent Advances in ViT](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Vision%20Transformer/Recent%20Advances%20in%20Vision%20Transformer.pdf)
+## [GAN Models](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Generative%20Adversarial%20Networks)
+## [Sequence Models](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Generative%20Adversarial%20Networks)
+## [Metrics](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Metrics)
+## [Optimizer](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Metrics)
+## [Statistical](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Optimizer)
+## [Transformer](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Sequence%20Models)
+## [Word Embedding](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Word_Embedding)
+## [Technical](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Technical)
