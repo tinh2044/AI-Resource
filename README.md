@@ -14,7 +14,7 @@ If you find it useful, please give me a star. It will be the motivation for me t
   - [Linear Algebra](#linear-algebra)
 - [Documents](#documents)
   - [Computer Vision](#computers-vision)
-  - [GAN Models](#GAN model)
+  - [GAN Models](#gan-models)
   - [Sequence Models](#sequence-models)
   - [Metrics](#Metrics)
   - [Optimizer](#Optimizer)
@@ -45,7 +45,7 @@ If you find it useful, please give me a star. It will be the motivation for me t
   - [ML with C++](https://github.com/tinh2044/AI-Resource/blob/main/Book/Machine%20Learning/Hands%20On%20Machine%20Learning%20with%20C%2B%2B%20Build.pdf)
 
 
-##
+
 
 # [Documents](https://github.com/tinh2044/AI-Resource/tree/main/Documents)
 ## [Computers Vision](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision)
