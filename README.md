@@ -7,31 +7,31 @@ If you find it useful, please give me a star. It will be the motivation for me t
 
 ## Table Of Contents
 
-- [Books](#Books)
-  - [Database](#Database)
-  - [Deep Learning](#deep-learning)
-  - [Machine Learning](#machine-learning)
-  - [Linear Algebra](#linear-algebra)
-- [Documents](#documents)
-  - [Computer Vision](#computers-vision)
-  - [GAN Models](#gan-model)
-  - [Sequence Models](#sequence-models)
-  - [Metrics](#Metrics)
-  - [Optimizer](#Optimizer)
-  - [Statistical](#Statistical)
-  - [Technical](#Technical)
-  - [Transformer](#Transformer)
-  - [Word Embedding](#word-embedding)
+- [ 1 Books](#Books)
+  - [1.1 Database](#Database)
+  - [1.2 Deep Learning](#deep-learning)
+  - [1.3 Machine Learning](#machine-learning)
+  - [1.4 Linear Algebra](#linear-algebra)
+- [ 2 Documents](#documents)
+  - [2.1 Computer Vision](#computers-vision)
+  - [2.2 GAN Models](#gan-model)
+  - [2.2 Sequence Models](#sequence-models)
+  - [2.3 Metrics](#Metrics)
+  - [2.4 Optimizer](#Optimizer)
+  - [2.5 Statistical](#Statistical)
+  - [2.6 Technical](#Technical)
+  - [2.7 Transformer](#Transformer)
+  - [2.8 Word Embedding](#word-embedding)
 
-# [Books](https://github.com/tinh2044/AI-Resource/tree/main/Book)
+# [1 Books](https://github.com/tinh2044/AI-Resource/tree/main/Book)
 
-## [Database](https://github.com/tinh2044/AI-Resource/tree/main/Book/Database)
+## [1.1 Database](https://github.com/tinh2044/AI-Resource/tree/main/Book/Database)
 
 - [Database Concept](https://github.com/tinh2044/AI-Resource/blob/main/Book/Database/Database%20Concepts.pdf)
 - [Database for Beginners Guide](https://github.com/tinh2044/AI-Resource/blob/main/Book/Database/Databases%20A%20Beginners%20Guide.pdf)
 - [Introduction Database](https://github.com/tinh2044/AI-Resource/blob/main/Book/Database/introduction%20database.pdf)
 
-## [Deep Learning](https://github.com/tinh2044/AI-Resource/tree/main/Book/DeepLearning)
+## [1.2 Deep Learning](https://github.com/tinh2044/AI-Resource/tree/main/Book/DeepLearning)
 
 - [DL with pytorch](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/Deep-Learning-with-PyTorch.pdf)
 - [DL basic (VN language)](<https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/Deep%20Learning%20Basic%20(VN%20language).pdf>)
@@ -40,13 +40,13 @@ If you find it useful, please give me a star. It will be the motivation for me t
 - [NLP with Python](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/natural%20language%20processing%20with%20python.pdf)
 - [Computer Vision Basic](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/practical%20computer%20vision.pdf)
 
-## [Linear Algebra](https://github.com/tinh2044/AI-Resource/tree/main/Book/Linear%20Algebra)
+## [1.3 Linear Algebra](https://github.com/tinh2044/AI-Resource/tree/main/Book/Linear%20Algebra)
 
 - [From University of Vermont](https://github.com/tinh2044/AI-Resource/blob/main/Book/Linear%20Algebra/Linear%20Algebra.pdf)
 - [From UCDAVIS](https://github.com/tinh2044/AI-Resource/blob/main/Book/Linear%20Algebra/Linear%20Algebra%20from%20UCDAVIS%20.pdf)
 - [From University of Puget Sound](https://github.com/tinh2044/AI-Resource/blob/main/Book/Linear%20Algebra/A%20First%20Course%20in%20Linear%20Algebra.pdf)
 
-## [Machine Learning](https://github.com/tinh2044/AI-Resource/tree/main/Book/Machine%20Learning)
+## [1.4 Machine Learning](https://github.com/tinh2044/AI-Resource/tree/main/Book/Machine%20Learning)
 
 - [Ml Concept](https://github.com/tinh2044/AI-Resource/blob/main/Book/Machine%20Learning/Machine%20Learning%20Concept.pdf)
 - [ML with Python](https://github.com/tinh2044/AI-Resource/blob/main/Book/Machine%20Learning/AI%20and%20machine%20learning%20for%20coders%20a%20programmers%20guide%20to%20artificial%20intelligence%20.pdf)
@@ -54,9 +54,9 @@ If you find it useful, please give me a star. It will be the motivation for me t
 
 ##
 
-# [Documents](https://github.com/tinh2044/AI-Resource/tree/main/Documents)
+# [2 Documents](https://github.com/tinh2044/AI-Resource/tree/main/Documents)
 
-## [Computers Vision](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision)
+## [2.1 Computers Vision](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision)
 
 - [Classification models](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/Classification%20models)
   - [Mobile Net](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/Classification%20models/Mobile%20Net)
@@ -64,10 +64,11 @@ If you find it useful, please give me a star. It will be the motivation for me t
   - [Shuffle Net](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/Classification%20models/Shuffle%20Net)
   - [Dense Net](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/Densely%20Connected%20Convolutional%20Networks.pdf)
   - [Efficient Net](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/EfficentNet.pdf)
-  - [Inception Net](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/Going%20deeper%20with%20convolutions.pdf)
+  - [Inception Net](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/Classification%20models/InceptionNet)
   - [Overview some models](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/Over%20view%20some%20models%20.pdf)
   - [Res Net](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/Resnet.pdf)
   - [Squeeze Net](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Classification%20models/SuqeezeNet.pdf)
+  - [Image Caption](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/Image%20Caption) -[CNN + LSTM](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Image%20Caption/Show%2C%20Attend%20and%20Tell-Neural%20Image%20Caption.pdf)
 - [CNN](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Computer%20Vision/CNN)
   - [Automatic Target Recognition](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/CNN/A%20Lightweight%20Fully%20Convolutional%20Neural%20Network.pdf)
   - [CNN from AI VN](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/CNN/CNN.pdf)
@@ -84,30 +85,30 @@ If you find it useful, please give me a star. It will be the motivation for me t
   - [ViT or CNN](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Vision%20Transformer/A%20survey%20of%20the%20Vision%20Transformers%20and%20its%20CNN-Transformer%20based%20.pdf)
   - [Recent Advances in ViT](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Computer%20Vision/Vision%20Transformer/Recent%20Advances%20in%20Vision%20Transformer.pdf)
 
-## [GAN Models](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Generative%20Adversarial%20Networks)
+## [2.2 GAN Models](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Generative%20Adversarial%20Networks)
 
 - [SRGAN](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Generative%20Adversarial%20Networks/Super%20Resolution%20GAN.pdf)
 
-## [Sequence Models](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Generative%20Adversarial%20Networks)
+## [2.3 Sequence Models](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Generative%20Adversarial%20Networks)
 
 - [Gate Recurrent Units](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Sequence%20Models/Gate%20Recurrent%20Units)
 - [Recurrent NN](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Sequence%20Models/Recurrent%20NN)
 - [Long Short Term Memory (LSTM)](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Sequence%20Models/LSTM)
 - [Manba](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Sequence%20Models/Manba%20-%20Linear%20Time%20Sequencre%20Modelig%20with%20Selective%20State%20Spaces.pdf)
 
-## [Metrics](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Metrics)
+## [2.4 Metrics](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Metrics)
 
 - [Classifaction Model Evalution Metrics](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Metrics/Classification%20Model%20Evaluation%20Metrics.pdf)
 - [Evolution Metrics](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Metrics/Evolution%20Metrics.pdf)
 - [ROC Curve](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Metrics/One%20ROC%20Curve%20and%20Cutoff%20Analysis.pdf)
 - [Visualizer multiple evolution metrics](https://github.com/tinh2044/AI-Resource/blob/main/Documents/Metrics/Visualizing%20multiple%20evolution%20metrics.pdf)
 
-## [Optimizer](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Metrics)
+## [2.5 Optimizer](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Metrics)
 
-## [Statistical](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Optimizer)
+## [2.6 Statistical](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Optimizer)
 
-## [Transformer](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Sequence%20Models)
+## [2.7 Transformer](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Sequence%20Models)
 
-## [Word Embedding](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Word_Embedding)
+## [2.8 Word Embedding](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Word_Embedding)
 
-## [Technical](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Technical)
+## [2.9 Technical](https://github.com/tinh2044/AI-Resource/tree/main/Documents/Technical)
