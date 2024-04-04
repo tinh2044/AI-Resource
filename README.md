@@ -102,7 +102,7 @@ This road will can helps you learn all about ML and DL. You can then go deeper i
  - [ROC Curve](./Documents/Metrics/One%20ROC%20Curve%20and%20Cutoff%20Analysis.pdf)
  - [Visualizer multiple evolution metrics](Documents/Metrics/Visualizing%20multiple%20evolution%20metrics.pdf)
 
-## [2.5%20Optimizer](./Documents/Optimizer/)
+## [2.5 Optimizer](./Documents/Optimizer/)
   - [Overview Optimizer](./Documents/Optimizer/Optimization%20for%20deep%20learning%20an%20overview.pdf)
   - [Adam Optimizer](./Documents/Optimizer/Adam%20A%20method%20for%20stochastic%20optimization.pdf)
 
