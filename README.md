@@ -38,7 +38,7 @@ If you find it useful, please give me a star. It will be the motivation for me t
 - [Neural Network](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/Neural%20Networks%20from%20Scratch%20in%20Python.pdf)
 - [DL Basic (EN language)](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/Understanding%20Deep%20Learning.pdf)
 - [NLP with Python](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/natural%20language%20processing%20with%20python.pdf)
-- [Computer Vision Basic](https://github.com/tinh2044/AI-Resource/blob/main/Book/DeepLearning/practical%20computer%20vision.pdf)
+- [Computer Vision Basic](./Book//DeepLearning//Practical%20computer%20vision.pdf)
 
 ## [1.3 Linear Algebra](https://github.com/tinh2044/AI-Resource/tree/main/Book/Linear%20Algebra)
 
