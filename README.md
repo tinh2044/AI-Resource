@@ -1,3 +1,5 @@
+<p align="center"><img width="100%"  src="./Assets//images//logo.jpg" /></p>
+
 # AI Resources
 
 In this repository you will find books and documents related to Machine Learning and Deep Learning.
@@ -9,7 +11,7 @@ This road will can helps you learn all about ML and DL. You can then go deeper i
 
 ## Table Of Contents
 
-- [ 1 Books](#1-Books)
+- [ 1 Books](#1-books)
   - [1.1 Database](#11-database)
   - [1.2 Deep Learning](#12-deep-learning)
   - [1.3 Machine Learning](#13-machine-learning)
@@ -22,15 +24,15 @@ This road will can helps you learn all about ML and DL. You can then go deeper i
   - [2.5 Optimizer](#25-Optimizer)
   - [2.6 Technical](#26-Technical)
 
-# [1 Books](./Book/)
+# 1. Books
 
-## [1.1 Database](./Book/Database/)
+## 1.1 Database
 
 - [Database Concept](./Book/Database/Database%20Concepts.pdf)
 - [Database for Beginners Guide](./Book/Database/Databases%20A%20Beginners%20Guide.pdf)
 - [Introduction Database](./Book/Database/introduction%20database.pdf)
 
-## [1.2 Deep Learning](./Book/DeepLearning/)
+## 1.2 Deep Learning
 
 - [DL with pytorch](/Book/DeepLearning/Deep-Learning-with-PyTorch.pdf)
 - [DL basic (VN language)](</Book/DeepLearning/Deep%20Learning%20Basic%20(VN%20language).pdf>)
@@ -39,21 +41,21 @@ This road will can helps you learn all about ML and DL. You can then go deeper i
 - [NLP with Python](/Book/DeepLearning/Natural%20language%20processing%20with%20python.pdf)
 - [Computer Vision Basic](/Book/DeepLearning/Practical%20computer%20vision.pdf)
 
-## [1.3 Machine Learning](/Book/Machine%20Learning/)
+## 1.3 Machine Learning
 
 - [Ml Concept](/Book/Machine%20Learning/Machine%20Learning%20Concept.pdf)
 - [ML with Python](/Book/Machine%20Learning/AI%20and%20machine%20learning%20for%20coders%20a%20programmers%20guide%20to%20artificial%20intelligence%20.pdf)
 - [ML with C++](/Book/Machine%20Learning/Hands%20On%20Machine%20Learning%20with%20C++%20Build.pdf)
 
-## [1.4 Linear Algebra](/Book/Linear%20Algebra/)
+## 1.4 Linear Algebra
 
 - [From University of Vermont](./Book/Linear%20Algebra/Linear%20Algebra.pdf)
 - [From UCDAVIS](./Book//Linear%20Algebra//Linear%20Algebra%20from%20UCDAVIS%20.pdf)
 - [From University of Puget Sound](./Book/Linear%20Algebra/A%20First%20Course%20in%20Linear%20Algebra.pdf)
 
-# [2 Documents](./Documents/)
+# 2. Documents
 
-## [2.1 Computers Vision](./Documents/Computer%20Vision/)
+## 2.1 Computers Vision
 
 - [Classification models](./Documents/Computer%20Vision/Classification%20models/)
   - [Mobile Net](./Documents/Computer%20Vision/Classification%20models/Mobile%20Net/)
@@ -83,7 +85,7 @@ This road will can helps you learn all about ML and DL. You can then go deeper i
   - [ViT or CNN](./Documents/Computer%20Vision/Vision%20Transformer/A%20survey%20of%20the%20Vision%20Transformers%20and%20its%20CNN-Transformer%20based%20.pdf)
   - [Recent Advances in ViT](./Documents/Computer%20Vision/Vision%20Transformer/Recent%20Advances%20in%20Vision%20Transformer.pdf)
 
-## [2.2 GAN Models](./Documents/Generative%20Adversarial%20Networks)
+## 2.2 GAN Models
 
 - [SRGAN](/Documents/Generative%20Adversarial%20Networks/Super%20Resolution%20GAN.pdf)
 - [DCGAN](/Documents/Generative%20Adversarial%20Networks/Unsupervised%20Representation%20Learning%20with%20Deep%20Convolutional%20Generative%20Adversarial%20Networks.pdf)
@@ -96,7 +98,7 @@ This road will can helps you learn all about ML and DL. You can then go deeper i
 - [WGAN](/Documents/Generative%20Adversarial%20Networks/Wasserstein%20GAN.pdf)
 - [ProGAN](/Documents/Generative%20Adversarial%20Networks/Progressive%20GAN.pdf)
 
-## [2.3 Sequence Models](./Documents/Sequence%20Models)
+## 2.3 Sequence Models
 
 - [Gate Recurrent Units](./Documents/Sequence%20Models/Gate%20Recurrent%20Units)
 - [Recurrent NN](./Documents/Sequence%20Models/Recurrent%20NN)
@@ -105,19 +107,19 @@ This road will can helps you learn all about ML and DL. You can then go deeper i
 - [Word Embedding](./Documents/Sequence%20Models/Word_Embedding)
 - [Manba](./Documents/Sequence%20Models/Manba-Linear%20Time%20Sequencre%20Modelig%20with%20Selective%20State%20Spaces.pdf)
 
-## [2.4 Metrics](./Documents/Metrics/)
+## 2.4 Metrics
 
 - [Classification Model Evaluation Metrics](./Documents/Metrics/Classification%20Model%20Evaluation%20Metrics.pdf)
 - [Evolution Metrics](./Documents/Metrics/Evolution%20Metrics.pdf)
 - [ROC Curve](./Documents/Metrics/One%20ROC%20Curve%20and%20Cutoff%20Analysis.pdf)
 - [Visualizer multiple evolution metrics](Documents/Metrics/Visualizing%20multiple%20evolution%20metrics.pdf)
 
-## [2.5 Optimizer](./Documents/Optimizer/)
+## 2.5 Optimizer
 
 - [Overview Optimizer](./Documents/Optimizer/Optimization%20for%20deep%20learning%20an%20overview.pdf)
 - [Adam Optimizer](./Documents/Optimizer/Adam%20A%20method%20for%20stochastic%20optimization.pdf)
 
-## [2.6 Technical](./Documents/Technical)
+## 2.6 Technical
 
 - [Batch Normalization](./Documents/Technical/Accelerating%20Deep%20Network%20Traning%20by%20Reducing%20Internal%20Covariate%20Shift.pdf)
 - [Layer Normalization](./Documents/Technical/Layer%20Normlization.pdf)
