@@ -15,14 +15,14 @@
 >
 > When you contribute, please read `CONTRIBUTING.md` for rules on adding new PDFs or links.
 
-Kho tài liệu này chứa sách và tài liệu liên quan đến Machine Learning và Deep Learning.
-Mục tiêu là tạo ra một nguồn tài liệu học tập rõ ràng và hữu ích để tra cứu và giải quyết các vấn đề cụ thể.
-Đây là các tài liệu tôi đã thu thập trong quá trình học tập. Hy vọng mọi người sẽ thích nó!
+This repository contains books and documents related to Machine Learning and Deep Learning.
+The goal is to create a clear and useful learning resource for study and reference to solve specific problems.
+These are documents I have collected throughout my studies. I hope everyone will find it helpful!
 
-Nếu bạn thấy hữu ích, hãy cho tôi một star ⭐. Đó sẽ là động lực để tôi tiếp tục phát triển repo này.
+If you find it useful, please give me a star ⭐. It will be the motivation for me to continue developing this repo.
 
-Nếu bạn không biết bắt đầu học từ đâu, hãy xem: [AI Roadmap](https://i.am.ai/roadmap/#machine-learning-roadmap).
-Lộ trình này sẽ giúp bạn học tất cả về ML và DL, sau đó bạn có thể đi sâu vào một lĩnh vực cụ thể.
+If you don't know where to start learning, check out: [AI Roadmap](https://i.am.ai/roadmap/#machine-learning-roadmap).
+This roadmap will help you learn all about ML and DL, then you can dive deeper into a specific area.
 
 ## Table Of Contents
 
@@ -156,28 +156,6 @@ Lộ trình này sẽ giúp bạn học tất cả về ML và DL, sau đó bạ
 > *This section is under development. Check back soon for optimization techniques!*
 
 ---
-
-# 📊 Diagrams & Visualizations
-
-- [Image Classification Timeline](./diagrams/image_classification_time%20line.mmd) - Mermaid diagram
-- [Image Classification Diagram](./diagrams/image_classification.drawio) - Draw.io format  
-- [Object Detection Timeline](./diagrams/object_detection_timeline.mmd) - Mermaid diagram
-- [Timeline Visualizations](./computer-vision/) - PNG timeline images for CV evolution
-
-# 🛠️ Utilities
-
-- [Link Checker](./scripts/check_links.py) - Script to validate external links
-- [Stable Diffusion Diagrams](./Stable_Diffusion_Diagrams_V2.pdf) - Visual reference guide
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on:
-- Adding new PDF resources to `offline/`
-- Contributing links to online markdown files  
-- Creating new topic areas
-- Maintaining link quality and organization
 
 ## 📝 How to Use This Repository
 
