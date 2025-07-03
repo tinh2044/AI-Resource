@@ -1,0 +1,126 @@
+flowchart TB
+    %% Styles for different eras
+    classDef earlyCNN fill:#f9c4ff,stroke:#333,stroke-width:1px
+    classDef resnetEra fill:#4be3c5,stroke:#333,stroke-width:1px
+    classDef efficiency fill:#ffaa66,stroke:#333,stroke-width:1px
+    classDef transformer fill:#5cd7ff,stroke:#333,stroke-width:1px
+    classDef timeline stroke:#000,stroke-width:1px
+    classDef timelineMarker stroke:#000,stroke-width:1px,stroke-dasharray: 5 5
+    
+    %% Era headers (first row)
+    Era1["Early CNNs (2012-2015)"]:::earlyCNN
+    Era2["ResNet Era (2016-2017)"]:::resnetEra
+    Era3["Efficiency Focus (2017-2019)"]:::efficiency
+    Era4["Transformer Revolution (2020-2022)"]:::transformer
+    
+    %% Year labels (second row)
+    Y2012["2012"]:::earlyCNN
+    Y2014["2014"]:::earlyCNN
+    Y2015["2015"]:::earlyCNN
+    Y2016["2016"]:::resnetEra
+    Y2017a["2017"]:::resnetEra
+    Y2017b["2017"]:::efficiency
+    Y2018["2018"]:::efficiency
+    Y2019["2019"]:::efficiency
+    Y2020["2020"]:::transformer
+    Y2021["2021"]:::transformer
+    Y2022["2022"]:::transformer
+    
+    %% Era to Year connections
+    Era1 --- Y2012 & Y2014 & Y2015
+    Era2 --- Y2016 & Y2017a
+    Era3 --- Y2017b & Y2018 & Y2019
+    Era4 --- Y2020 & Y2021 & Y2022
+    
+    %% Timeline with markers
+    TL1 --- TL2 --- TL3 --- TL4 --- TL5 --- TL6 --- TL7 --- TL8 --- TL9 --- TL10 --- TL11
+    TL1 & TL2 & TL3 & TL4 & TL5 & TL6 & TL7 & TL8 & TL9 & TL10 & TL11:::timeline
+    
+    %% Timeline markers to years
+    Y2012 -.- TL1:::timelineMarker
+    Y2014 -.- TL2:::timelineMarker
+    Y2015 -.- TL3:::timelineMarker
+    Y2016 -.- TL4:::timelineMarker
+    Y2017a -.- TL5:::timelineMarker
+    Y2017b -.- TL6:::timelineMarker
+    Y2018 -.- TL7:::timelineMarker
+    Y2019 -.- TL8:::timelineMarker
+    Y2020 -.- TL9:::timelineMarker
+    Y2021 -.- TL10:::timelineMarker
+    Y2022 -.- TL11:::timelineMarker
+    
+    %% Models (third row)
+    AlexNet["AlexNet"]:::earlyCNN
+    VGGNet["VGGNet"]:::earlyCNN
+    Inception["GoogLeNet/Inception"]:::earlyCNN
+    ResNet["ResNet"]:::resnetEra
+    DenseNet["DenseNet"]:::resnetEra
+    MobileNet["MobileNet"]:::efficiency
+    MobileNetV2["MobileNetV2"]:::efficiency
+    EfficientNet["EfficientNet"]:::efficiency
+    ViT["Vision Transformer<br/>(ViT)"]:::transformer
+    DeiT["DeiT"]:::transformer
+    ConvNeXt["ConvNeXt"]:::transformer
+    
+    %% Timeline to Models connections
+    TL1 -.- AlexNet
+    TL2 -.- VGGNet
+    TL3 -.- Inception
+    TL4 -.- ResNet
+    TL5 -.- DenseNet
+    TL6 -.- MobileNet
+    TL7 -.- MobileNetV2
+    TL8 -.- EfficientNet
+    TL9 -.- ViT
+    TL10 -.- DeiT
+    TL11 -.- ConvNeXt
+    
+    %% Key contributions (fourth row)
+    AlexContrib["\"Breakthrough in<br/>deep learning\""]:::earlyCNN
+    VGGContrib["\"Deep networks with<br/>small filters\""]:::earlyCNN
+    InceptionContrib["\"Efficient multi-scale<br/>features\""]:::earlyCNN
+    ResNetContrib["\"Skip connections<br/>solve vanishing<br/>gradients\""]:::resnetEra
+    DenseNetContrib["\"Dense feature reuse\""]:::resnetEra
+    MobileNetContrib["\"Depthwise separable<br/>convolutions\""]:::efficiency
+    MobileNetV2Contrib["\"Inverted residuals\""]:::efficiency
+    EfficientNetContrib["\"Compound scaling<br/>method\""]:::efficiency
+    ViTContrib["\"Pure transformer for<br/>images\""]:::transformer
+    DeiTContrib["\"Efficient training with<br/>distillation\""]:::transformer
+    ConvNeXtContrib["\"Modernized CNNs\""]:::transformer
+    
+    %% Models to contributions connections
+    AlexNet --- AlexContrib
+    VGGNet --- VGGContrib
+    Inception --- InceptionContrib
+    ResNet --- ResNetContrib
+    DenseNet --- DenseNetContrib
+    MobileNet --- MobileNetContrib
+    MobileNetV2 --- MobileNetV2Contrib
+    EfficientNet --- EfficientNetContrib
+    ViT --- ViTContrib
+    DeiT --- DeiTContrib
+    ConvNeXt --- ConvNeXtContrib
+    
+    %% Secondary models (fifth row)
+    ResNeXt["ResNeXt"]:::resnetEra
+    ResNeXtContrib["\"Cardinality for better<br/>features\""]:::resnetEra
+    SENet["SENet"]:::efficiency
+    SENetContrib["\"Channel attention\""]:::efficiency
+    Swin["Swin Transformer"]:::transformer
+    SwinContrib["\"Hierarchical<br/>attention\""]:::transformer
+    CoAtNet["CoAtNet"]:::transformer
+    CoAtNetContrib["\"CNN + Transformer<br/>hybrid\""]:::transformer
+    MAE["MAE"]:::transformer
+    MAEContrib["\"Masked image<br/>modeling\""]:::transformer
+
+    %% Secondary model connections
+    DenseNet -.- ResNeXt
+    ResNeXt --- ResNeXtContrib
+    MobileNetV2 -.- SENet
+    SENet --- SENetContrib
+    DeiT -.- Swin
+    Swin --- SwinContrib
+    Swin -.- CoAtNet
+    CoAtNet --- CoAtNetContrib
+    ConvNeXt -.- MAE
+    MAE --- MAEContrib

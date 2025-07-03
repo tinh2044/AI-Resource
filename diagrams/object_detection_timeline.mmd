@@ -1,0 +1,136 @@
+flowchart TB
+    %% Styles for different eras
+    classDef twoStage fill:#e1f5fe,stroke:#333,stroke-width:1px
+    classDef oneStage fill:#fff3e0,stroke:#333,stroke-width:1px
+    classDef anchorFree fill:#f3e5f5,stroke:#333,stroke-width:1px
+    classDef transformer fill:#e8f5e8,stroke:#333,stroke-width:1px
+    classDef timeline stroke:#000,stroke-width:1px
+    classDef timelineMarker stroke:#000,stroke-width:1px,stroke-dasharray: 5 5
+    
+    %% Era headers (first row)
+    Era1["Two-Stage Era<br/>2014-2016"]:::twoStage
+    Era2["One-Stage Revolution<br/>2016-2019"]:::oneStage
+    Era3["Anchor-Free Innovation<br/>2018-2020"]:::anchorFree
+    Era4["Transformer Integration<br/>2020-2025"]:::transformer
+    
+    %% Year labels (second row)
+    Y2014["2014"]:::twoStage
+    Y2015["2015"]:::twoStage
+    Y2016["2016"]:::oneStage
+    Y2017["2017"]:::oneStage
+    Y2018["2018"]:::anchorFree
+    Y2019["2019"]:::anchorFree
+    Y2020["2020"]:::transformer
+    Y2021["2021"]:::transformer
+    Y2022["2022"]:::transformer
+    Y2023["2023"]:::transformer
+    Y2024["2024"]:::transformer
+    
+    %% Era to Year connections
+    Era1 --- Y2014 & Y2015 & Y2016
+    Era2 --- Y2016 & Y2017 & Y2018
+    Era3 --- Y2018 & Y2019 & Y2020
+    Era4 --- Y2020 & Y2021 & Y2022 & Y2023 & Y2024
+    
+    %% Timeline with markers
+    TL1 --- TL2 --- TL3 --- TL4 --- TL5 --- TL6 --- TL7 --- TL8 --- TL9 --- TL10 --- TL11
+    TL1 & TL2 & TL3 & TL4 & TL5 & TL6 & TL7 & TL8 & TL9 & TL10 & TL11:::timeline
+    
+    %% Timeline markers to years
+    Y2014 -.- TL1:::timelineMarker
+    Y2015 -.- TL2:::timelineMarker
+    Y2016 -.- TL3:::timelineMarker
+    Y2017 -.- TL4:::timelineMarker
+    Y2018 -.- TL5:::timelineMarker
+    Y2019 -.- TL6:::timelineMarker
+    Y2020 -.- TL7:::timelineMarker
+    Y2021 -.- TL8:::timelineMarker
+    Y2022 -.- TL9:::timelineMarker
+    Y2023 -.- TL10:::timelineMarker
+    Y2024 -.- TL11:::timelineMarker
+    
+    %% Primary Models (third row)
+    RCNN["R-CNN"]:::twoStage
+    FasterRCNN["Faster R-CNN"]:::twoStage
+    YOLO1["YOLO"]:::oneStage
+    RetinaNet["RetinaNet"]:::oneStage
+    CornerNet["CornerNet"]:::anchorFree
+    CenterNet["CenterNet"]:::anchorFree
+    DETR["DETR"]:::transformer
+    DefDETR["Deformable<br/>DETR"]:::transformer
+    YOLO7["YOLOv7"]:::transformer
+    CLIPDET["CLIP-based<br/>Zero-shot"]:::transformer
+    YOLO11["YOLOv11"]:::transformer
+    
+    %% Timeline to Models connections
+    TL1 -.- RCNN
+    TL2 -.- FasterRCNN
+    TL3 -.- YOLO1
+    TL4 -.- RetinaNet
+    TL5 -.- CornerNet
+    TL6 -.- CenterNet
+    TL7 -.- DETR
+    TL8 -.- DefDETR
+    TL9 -.- YOLO7
+    TL10 -.- CLIPDET
+    TL11 -.- YOLO11
+    
+    %% Key contributions (fourth row)
+    RCNNContrib["CNNs + Region<br/>Proposals"]:::twoStage
+    FasterRCNNContrib["Learnable RPN<br/>End-to-end"]:::twoStage
+    YOLO1Contrib["Unified real-time<br/>detection"]:::oneStage
+    RetinaNetContrib["Focal loss for<br/>class imbalance"]:::oneStage
+    CornerNetContrib["Keypoint-based<br/>anchor-free"]:::anchorFree
+    CenterNetContrib["Objects as<br/>single points"]:::anchorFree
+    DETRContrib["End-to-end<br/>Transformers"]:::transformer
+    DefDETRContrib["Deformable<br/>attention"]:::transformer
+    YOLO7Contrib["Trainable bag<br/>of freebies"]:::transformer
+    CLIPDETContrib["Vision-language<br/>zero-shot detection"]:::transformer
+    YOLO11Contrib["Latest architectural<br/>enhancements"]:::transformer
+    
+    %% Models to contributions connections
+    RCNN --- RCNNContrib
+    FasterRCNN --- FasterRCNNContrib
+    YOLO1 --- YOLO1Contrib
+    RetinaNet --- RetinaNetContrib
+    CornerNet --- CornerNetContrib
+    CenterNet --- CenterNetContrib
+    DETR --- DETRContrib
+    DefDETR --- DefDETRContrib
+    YOLO7 --- YOLO7Contrib
+    CLIPDET --- CLIPDETContrib
+    YOLO11 --- YOLO11Contrib
+    
+    %% Secondary models (fifth row)
+    FastRCNN["Fast R-CNN"]:::twoStage
+    SSD["SSD"]:::oneStage
+    FCOS["FCOS"]:::anchorFree
+    RTDETR["RT-DETR"]:::transformer
+    YOLO8["YOLOv8"]:::transformer
+    YOLO9["YOLOv9"]:::transformer
+    YOLO10["YOLOv10"]:::transformer
+    
+    %% Secondary model contributions
+    FastRCNNContrib["End-to-end training<br/>with ROI pooling"]:::twoStage
+    SSDContrib["Multi-scale single<br/>shot detection"]:::oneStage
+    FCOSContrib["Per-pixel predictions<br/>fully convolutional"]:::anchorFree
+    RTDETRContrib["Real-time DETR<br/>optimization"]:::transformer
+    YOLO8Contrib["Anchor-free<br/>design"]:::transformer
+    YOLO9SecContrib["Programmable<br/>gradient info"]:::transformer
+    YOLO10Contrib["End-to-end without<br/>NMS post-processing"]:::transformer
+
+    %% Secondary model connections
+    FasterRCNN -.- FastRCNN
+    FastRCNN --- FastRCNNContrib
+    YOLO1 -.- SSD
+    SSD --- SSDContrib
+    CenterNet -.- FCOS
+    FCOS --- FCOSContrib
+    DefDETR -.- RTDETR
+    RTDETR --- RTDETRContrib
+    YOLO7 -.- YOLO8
+    YOLO8 --- YOLO8Contrib
+    CLIPDET -.- YOLO9
+    YOLO9 --- YOLO9SecContrib
+    YOLO9 -.- YOLO10
+    YOLO10 --- YOLO10Contrib 

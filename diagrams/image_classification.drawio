@@ -1,0 +1,190 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="sKi86thUn-yGRC57k2Da">
+    <mxGraphModel dx="1123" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-1" value="🖼️ Image Classification Architecture Taxonomy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#2C3E50;" vertex="1" parent="1">
+          <mxGeometry x="600" y="20" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-2" value="🖼️ Image Classification" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4ECDC4;strokeColor=#26A69A;fontColor=white;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="100" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-3" value="🧠 Convolutional Networks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#45B7D1;strokeColor=#2980B9;fontColor=white;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-4" value="🔄 Vision Transformers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#45B7D1;strokeColor=#2980B9;fontColor=white;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-5" value="⚡ Efficient Architectures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#45B7D1;strokeColor=#2980B9;fontColor=white;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="250" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-6" value="🛠️ Advanced Techniques" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#45B7D1;strokeColor=#2980B9;fontColor=white;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="250" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-7" value="Foundation CNNs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=white;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="380" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-8" value="Multi-scale Learning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=white;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="230" y="380" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-9" value="AlexNet (2012) ⭐&#xa;Deep learning breakthrough" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-10" value="VGGNet (2015) ⭐&#xa;Deep + small filters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="460" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-11" value="Inception (2015) ⭐&#xa;Multi-scale modules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-12" value="ResNet (2016) ⭐&#xa;Skip connections" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="520" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-13" value="DenseNet (2017) ⭐&#xa;Dense connections" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="75" y="580" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-14" value="Feature Pyramid Networks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-15" value="ResNeXt&#xa;Cardinality design" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="520" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-16" value="Pure Transformers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=white;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-17" value="Hybrid Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=white;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-18" value="Novel Attention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=white;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="450" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-19" value="ViT (2021) ⭐&#xa;16x16 patches" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-20" value="DeiT (2021)&#xa;Knowledge distillation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-21" value="Swin (2021) ⭐&#xa;Hierarchical attention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-22" value="CoAtNet (2021) ⭐&#xa;CNN + Transformer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-23" value="CvT&#xa;Conv in attention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="620" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-24" value="ConvNeXt (2022)&#xa;Modernized CNN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="570" y="520" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-25" value="ViT-LSLA&#xa;Lightweight attention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-26" value="CP-ViT&#xa;Progressive pruning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-27" value="Mobile-Optimized" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=white;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="680" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-28" value="Scaling Methods" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=white;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="820" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-29" value="Compact Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=white;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="750" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-30" value="MobileNet (2017) ⭐&#xa;Depthwise separable" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="650" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-31" value="MobileNetV2 (2018)&#xa;Inverted residuals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="750" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-32" value="ShuffleNet&#xa;Channel shuffle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="700" y="520" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-33" value="EfficientNet (2019) ⭐&#xa;Compound scaling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="820" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-34" value="EfficientNetV2 (2021)&#xa;Progressive training" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="820" y="520" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-35" value="SqueezeNet&#xa;Fire modules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="240" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-36" value="TRT-ViT&#xa;Hardware-aware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="820" y="240" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-37" value="Training Techniques" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=white;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="980" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-38" value="Attention Methods" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=white;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-39" value="Compression" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74B9FF;strokeColor=#0984E3;fontColor=white;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-40" value="MAE (2022) ⭐&#xa;Masked modeling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="950" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-41" value="Batch Normalization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-42" value="Layer Normalization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="520" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-43" value="SE-Net&#xa;Channel attention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-44" value="CBAM&#xa;Spatial + channel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="460" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-45" value="Non-local&#xa;Self-attention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="520" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-46" value="Knowledge Distillation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="240" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-47" value="Deep Compression" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="240" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-48" value="" style="endArrow=classic;html=1;strokeColor=#34495E;strokeWidth=2;" edge="1" parent="1" source="UcCqlLRcvbYgpZS-F-TD-2" target="UcCqlLRcvbYgpZS-F-TD-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="190" as="sourcePoint" />
+            <mxPoint x="300" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-49" value="" style="endArrow=classic;html=1;strokeColor=#34495E;strokeWidth=2;" edge="1" parent="1" source="UcCqlLRcvbYgpZS-F-TD-2" target="UcCqlLRcvbYgpZS-F-TD-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="190" as="sourcePoint" />
+            <mxPoint x="550" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-50" value="" style="endArrow=classic;html=1;strokeColor=#34495E;strokeWidth=2;" edge="1" parent="1" source="UcCqlLRcvbYgpZS-F-TD-2" target="UcCqlLRcvbYgpZS-F-TD-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="190" as="sourcePoint" />
+            <mxPoint x="850" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-51" value="" style="endArrow=classic;html=1;strokeColor=#34495E;strokeWidth=2;" edge="1" parent="1" source="UcCqlLRcvbYgpZS-F-TD-2" target="UcCqlLRcvbYgpZS-F-TD-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="190" as="sourcePoint" />
+            <mxPoint x="1150" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=#616161;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="650" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-53" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="660" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-54" value="⭐ Landmark Paper" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6B6B;strokeColor=#E74C3C;fontColor=white;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="685" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-55" value="Important Paper" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F7F7;strokeColor=#333;" vertex="1" parent="1">
+          <mxGeometry x="190" y="685" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UcCqlLRcvbYgpZS-F-TD-56" value="Main Category" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#45B7D1;strokeColor=#2980B9;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="310" y="685" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
